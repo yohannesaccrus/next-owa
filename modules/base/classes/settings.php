@@ -758,7 +758,7 @@
         }
         // there is some plugin use case where this is needed i think. if not get rid of it.
         if (!defined('OWA_PUBLIC_URL')) {
-            define('OWA_PUBLIC_URL', '');
+            define('OWA_PUBLIC_URL', 'tracker/');
         }
 
         // set base url

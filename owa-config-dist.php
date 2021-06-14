@@ -59,7 +59,7 @@ define('OWA_AUTH_SALT', 'yourauthsaltgoeshere');
  * Don't forget the slash at the end.
  */
  
-define('OWA_PUBLIC_URL', 'https://next-owa-track.herokuapp.com/tracker/');  
+define('OWA_PUBLIC_URL', 'http://domain/path/to/owa/');  
 
 /** 
  * OWA ERROR HANDLER
