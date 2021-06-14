@@ -623,7 +623,7 @@
                 'do_not_fetch_config_from_db'        => false,
                 'announce_visitors'                    => false,
                 'public_url'                        => '',
-                'base_url'                            => '/tracker',
+                'base_url'                            => 'tracker/',
                 'action_url'                        => '',
                 'images_url'                        => '',
                 'reporting_url'                        => '',
@@ -741,7 +741,7 @@
      private function setupPaths() {
 
          //build base url
-         $base_url = "/tracker";
+         $base_url = "tracker/";
          $proto  = "http";
 
         if(isset($_SERVER['HTTPS'])) {
