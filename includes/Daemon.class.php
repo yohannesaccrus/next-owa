@@ -69,7 +69,7 @@ class Daemon
     * @var string
     * @since 1.0
     */
-   var $homePath = '/';
+   var $homePath = '/tracker';
    /**#@-*/
 
 
