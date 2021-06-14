@@ -741,7 +741,7 @@
      private function setupPaths() {
 
          //build base url
-         $base_url = "tracker/";
+         $base_url = "/tracker";
          $proto  = "http";
 
         if(isset($_SERVER['HTTPS'])) {
